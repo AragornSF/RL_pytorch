@@ -117,7 +117,7 @@ class Critic(object):
             advantage = reward + GAMMA * v_ - v
         return advantage
 
-ENV_NAME = 'CartPole-v0'
+ENV_NAME = 'FrozenLake-v0'
 EPISODE = 30000
 STEP = 30000
 TEST = 100
